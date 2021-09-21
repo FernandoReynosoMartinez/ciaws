@@ -40,7 +40,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>ciaws-v2</finalName>
 	</build>
 
 </project>
