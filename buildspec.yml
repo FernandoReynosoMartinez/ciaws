@@ -1,14 +1,14 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      java: corretto8
   build:
     commands:
-      - echo Entered the build phase...
-      - mvn clean package
-  post_build:
-    commands:
-      - echo Build completed successfully
+      - java -version
+      - mvn package
 artifacts:
   files:
-    - target/awsci-v2.jar
-  discard-paths: yes
+    - '**/*'
+  base-directory: 'target'
