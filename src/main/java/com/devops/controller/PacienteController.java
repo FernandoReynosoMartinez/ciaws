@@ -20,7 +20,7 @@ public class PacienteController {
 	@Autowired
 	private PacienteService pacienteService;
 
-	//Creacion de un paciente
+	//Creacion de un paciente kji
 	@PostMapping("/paciente")
 	public Paciente guardarPaciente(@RequestBody Paciente paciente) {
 		
