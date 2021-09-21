@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/pacientes-service-awsci.jar
+    - target/awsci.jar
   discard-paths: yes
